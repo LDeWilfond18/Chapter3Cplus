@@ -18,7 +18,6 @@ int main()
 		cin >> firstNum;
 
 		cout << "Please enter another number ";
-
 		cin >> secondNum; 
 
 		add = firstNum + secondNum;

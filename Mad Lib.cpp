@@ -22,6 +22,9 @@ int main()
 	cin >> wordEst;
 
 	cout << "Enter a body part plural ";
+	cin >> bodyPartPlural;
+
+		cout << "Enter an animal";
 	cin >> anAnimal;
 
 	cout << "Enter a Noun";
@@ -39,7 +42,9 @@ int main()
 	cout << "Please enter another Number";
 	cin >> c;
 
-	cout << "The " << color << "Dragon is the" << wordEst << "Dragon of all. It has" << c << 
+	cout << "The " << color << "Dragon is the " << wordEst << "Dragon of all. It has " <<
+		c << bodyPartPlural << ", and a/an " << anAnimal << "shaped like a " <<
+		aNoun << ". It loves to eat " << pluralNoun << ", although it will feast on nearly anything.";
 
 
 }
