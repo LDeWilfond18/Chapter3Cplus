@@ -23,7 +23,7 @@ int main()
 	cout << "Your total charge is: " << totalBill;
 	cout << "\n*****************************\n";
 
-	system("pause")
-		;
+	system("pause");
+
 	return 0;
 }
